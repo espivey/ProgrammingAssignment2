@@ -72,17 +72,17 @@ cacheSolve <- function(x, A) {
 
 ## Example 
 
-a <- c(16,2,3,13,5,11,10,8,9,7,6,12,4,14,15,12)
-A = matrix(a,4,4, byrow = TRUE)
-m <- makeCacheMatrix()
+#  a <- c(16,2,3,13,5,11,10,8,9,7,6,12,4,14,15,12)
+#  A = matrix(a,4,4, byrow = TRUE)
+#  m <- makeCacheMatrix()
 
-m$setMatrix(A)
+#  m$setMatrix(A)
 
-m$getMatrix()
+#  m$getMatrix()
 
-m$getInverse()
+#  m$getInverse()
 
-iX <- cacheSolve(m, A); iX
+#  iX <- cacheSolve(m, A); iX
 
 
 
